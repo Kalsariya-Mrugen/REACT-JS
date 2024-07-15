@@ -1,0 +1,53 @@
+.input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todo-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .delete-button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #cc0000;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+input[type="number"] {
+  margin-left: 10px;
+  padding: 5px;
+  width: 230px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}

@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Arial, sans-serif';
+  }
+  
+  .styled-component {
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+    font-family: var(--font-family);
+  }
+  
+  .styled-component.styled {
+    background-color: var(--primary-color);
+    color: #fff;
+    transform: scale(1.1);
+    animation: slideIn 0.5s ease-in-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .styled-component {
+      padding: 10px;
+    }
+  }
+  
